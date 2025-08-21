@@ -26,10 +26,10 @@ jobs:
 
       - name: Tag and push Backend images
         run: |
-          docker tag todo101-todo-backend fongpakorn/todo101-todo-backend:latest
+          docker tag todo101-todo-backend fongpakorn/todo-backend:latest
           docker push fongpakorn/todo101-todo-backend:latest
       
       - name: Tag and push Frontend image
         run: |
-          docker tag todo101-todo-frontend fongpakorn/todo101-todo-frontend:latest
+          docker tag todo101-todo-frontend fongpakorn/todo-frontend:latest
           docker push fongpakorn/todo101-todo-frontend:latest
